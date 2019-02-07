@@ -4,8 +4,9 @@ using System.Text;
 
 namespace App1.Models
 {
-    class User
+    public class User
     {
+        
         public string Name { get; set; }
         public string Password { get; set; }
         public List<Location> Locations { get; set; }
