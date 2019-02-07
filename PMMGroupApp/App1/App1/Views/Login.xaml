@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Views.Login"
+             Title="PMMGroup">
+             
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Login View"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+    
+            <Entry Placeholder="Enter User" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+            <Entry Placeholder="Enter Password" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+
+            <Button  Text="Submit" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" />
+
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
